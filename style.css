@@ -1,0 +1,168 @@
+{
+box-sizing: border-box;
+text-decoration:none;
+list-style: none;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+}
+@media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ table, p, img { padding-right: 1em; width: 100%; } } @media (min-width:480px) { /* smartphones, Android phones, landscape iPhone */ } @media (min-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ } @media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ } @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ } @media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+ /* header */
+ .fondo{
+     width: 100%;
+    height: 1em;
+    background: linear-gradient(90DEG,#412A84,#10739A);
+    padding-top: 1em;
+    }
+    
+.header{
+   background-color: #2d2f3e; 
+     width: 100%;
+     margin: 0 0 0%;  
+   height: 3em;
+   display:flex;
+   flex-direction: row;
+   overflow:hidden;
+   justify-content:center;
+   align-items:center;
+    }
+ 
+ 
+ .logo{
+   height: 100%;  
+    width: 10%; 
+    object-fit:cover; 
+ } 
+ 
+ /* body */               
+  .body{
+ background-image: url('Baldy.jpg'); 
+   font-family:arial;
+   color: #ffffff;
+   background-repeat: no-repeat;
+   background-size: cover ;
+   background-attachment: fixed;
+   max-width: 100%;
+} 
+
+h1{
+ color:#ffffff; 
+ font:arial;
+ font-size: 30px;   
+ text-align: center; 
+ text-decoration: underline;  
+}
+
+h2{
+ color:#ffffff;
+ font:arial;   
+ font-size: 15px;   
+ text-align: center;
+ text-decoration: underline;   
+    
+}
+
+button{
+   border:outset;  
+   border-color:#5582ff;
+   color:#95b7ff;
+   border-radius: 5px;
+}
+
+input{
+  border: outset;  
+   border-color:#5582ff;
+   color:#95b7ff;
+   border-radius: 5px;
+   width: 30%;
+   height: 30%; 
+   justify-content: center;
+}
+  
+/* sección 3 */
+.section-3 hr{
+   background-color:#ffffff;
+   width: 100%;
+   height: 10px;
+  margin-rigth: 0%;
+  border-color:#ffffff;
+ 
+  
+}
+
+.section-3{
+    width: 100%;
+    height: 12em;
+    background: #2d2f3e;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.s3-logo img{
+   object-fit:cover;
+   height: 100%; 
+}
+
+.s3-contenido{
+  width: 100%;
+  height: 65%;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  
+}
+.s3-logo{
+   width:50%;
+}    
+.s3-texto{
+@media screen and(max-width: 480px){
+   font-size: 15px;
+}
+   width:30%; 
+   color: #fff;
+  font-size:18px;
+  text-decoration:none;
+  
+}
+.s3-texto h3{
+  margin:0.25em 0;  
+  font-size:15px;  
+}
+/* footer */
+
+.footer{
+
+width: 100%;
+  height: 30%; 
+  border-top:#585c69 solid 0.0625em;
+  display: flex;
+  flex-direction:row;
+  justify-content:left;
+  align-items:center;
+  color: #fff;
+  
+ 
+}
+.autora{
+  text-decoration: none;
+  color:#fff; 
+  margin: 0.25em;
+}
+
+.politicas{
+   text-decoration:none; 
+   color:#fff;
+   margin:3em; 
+}
+
+.Enlace{
+   text-decoration:none;
+   color: ##ff80b3ce;
+    
+}
